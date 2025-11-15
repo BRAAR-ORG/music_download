@@ -50,7 +50,8 @@ Se houver atualização, realiza o download do pacote ZIP da release, extrai e r
 ---
 
 ## 🎨 Visual  
-_(Insira capturas de tela ou GIFs rápidos aqui para mostrar a interface)_
+_(Insira capturas de tela ou GIFs rápidos aqui para<img width="1920" height="1080" alt="BRAAR MUSIC DOWNLOAD" src="https://github.com/user-attachments/assets/72e0e7b8-30ec-4af4-aced-a0a137c8eeda" />
+ mostrar a interface)_
 
 ---
 
