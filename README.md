@@ -20,8 +20,8 @@
 | Arquivo                        | Descrição                                  |
 |------------------------------|---------------------------------------------|
 | `BRAAR MUSIC DOWNLOAD.exe`   | Aplicativo principal executável             |
-| `ffmpeg.exe`                 | Utilitário de conversão de áudio (opcional)|
-| `venil.ico`                  | Ícone oficial da BRAAR                      |
+| `ffmpeg.exe`                 | Utilitário de conversão de áudio (opcional) |
+| `venil.ico`                  | Ícone oficial                               |
 | `README.md`                  | Este mesmo documento                        |
 
 ---
@@ -41,25 +41,12 @@
 5. Cole o link do vídeo do YouTube e aguarde o download e conversão.  
 6. O MP3 será salvo na pasta escolhida.  
 
----
-
-## 🔄 Sistema de Atualização  
-O aplicativo verifica automaticamente no GitHub a última **tag de release** (por exemplo, `v1.0.1`) e compara com a versão local. Só realiza a atualização se a versão da tag for **maior** que a local (ex: `1.0.0 → 1.0.1`).  
-Se houver atualização, realiza o download do pacote ZIP da release, extrai e reinicia automaticamente.
 
 ---
 
-## 🎨 Visual  
-_(Insira capturas de tela ou GIFs rápidos aqui para<img width="1920" height="1080" alt="BRAAR MUSIC DOWNLOAD" src="https://github.com/user-attachments/assets/72e0e7b8-30ec-4af4-aced-a0a137c8eeda" />
- mostrar a interface)_
+<img width="1920" height="1080" alt="BRAAR MUSIC DOWNLOAD" src="https://github.com/user-attachments/assets/48c7bf8f-ab23-45bc-b83c-21fb85c4c835" />
 
 ---
-
-## 🛠️ Contribuindo  
-Contribuições são bem-vindas!  
-- Abra uma **Issue** para relatar bugs ou sugerir recursos.  
-- Use um **Pull Request** para adicionar funcionalidades ou melhorias.  
-- Mantenha o padrão de código limpo, apropriado para terminal e compatível com Windows.
 
 ---
 
