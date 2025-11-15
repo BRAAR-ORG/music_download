@@ -8,7 +8,7 @@
 
 ## 🪐 **Descrição Geral**
 
-O **StellarLauncher** é um aplicativo moderno e leve para baixar áudio do YouTube em alta qualidade (formato MP3), oferecendo uma experiência simples, limpa e eficiente. Desenvolvido pela **BRAAR**, ele traz download rápido, conversão automática, pasta configurável e atualizações diretas via GitHub.
+O **StellarLauncher** é um aplicativo leve para baixar áudio do YouTube em (formato MP3), oferecendo uma experiência simples, limpa e eficiente. Desenvolvido pela **BRAAR**, ele traz download rápido, conversão automática, pasta configurável e atualizações diretas via GitHub.
 
 ---
 
@@ -27,7 +27,7 @@ O **StellarLauncher** é um aplicativo moderno e leve para baixar áudio do YouT
 
 ## 🆕 **Versão Atual**
 
-### 📌 **v1.0.0 — “Aurora Inicial”**
+### 📌 **v1.0.0 — “Aurora”**
 
 Primeira versão estável do aplicativo.
 
@@ -40,13 +40,6 @@ Primeira versão estável do aplicativo.
 
 🔗 **Baixe agora:**
 [https://github.com/BRAAR-ORG/stellarlauncher/releases](https://github.com/BRAAR-ORG/stellarlauncher/releases)
-
----
-
-## 🎨 **Identidade Visual**
-
-O StellarLauncher possui um ícone exclusivo e pode ser totalmente personalizado.
-Se quiser novos ícones, posso gerar em **PNG**, **SVG**, **ICO**, estilo minimalista, neon, futurista ou 3D.
 
 ---
 
@@ -91,12 +84,6 @@ Organização oficial:
 
 ---
 
-## 💬 **Suporte**
-
-Use a aba **Issues** para dúvidas, erros ou sugestões.
-
----
-
 ## 📄 **Licença**
 
-Código liberado para uso pessoal e modificação.
+Código fonte privado nos direitos da **"BRAAR"** para trabalho interno mas seguro. Evitando o código aberto para modificações de terceiros!!
