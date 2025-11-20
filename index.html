@@ -29,18 +29,17 @@ body {
 header {
   text-align: center;
   padding: 60px 20px 80px;
-  position: relative;
 }
 
-/* ASCII Neon Animado Ultra Premium */
+/* ASCII Neon Animado */
 .ascii-banner {
   font-family: monospace;
   white-space: pre;
-  font-size: 15px;        /* maior para destaque */
+  font-size: 15px;
   line-height: 1.1;
   margin-bottom: 30px;
   color: #00f0ff;
-  text-shadow:
+  text-shadow: 
     0 0 5px #00f0ff,
     0 0 10px #00f0ff,
     0 0 20px #00f0ff,
@@ -52,86 +51,37 @@ header {
 
 @keyframes neonPulse {
   0% {
-    text-shadow:
-      0 0 10px #00f0ff,
-      0 0 20px #00f0ff,
-      0 0 40px #00f0ff,
-      0 0 60px #00f0ff,
-      0 0 80px #00f0ff;
+    text-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff,0 0 40px #00f0ff,0 0 60px #00f0ff,0 0 80px #00f0ff;
   }
   50% {
-    text-shadow:
-      0 0 15px #00f0ff,
-      0 0 30px #00f0ff,
-      0 0 50px #00f0ff,
-      0 0 70px #00f0ff,
-      0 0 100px #00f0ff;
+    text-shadow: 0 0 15px #00f0ff,0 0 30px #00f0ff,0 0 50px #00f0ff,0 0 70px #00f0ff,0 0 100px #00f0ff;
   }
   100% {
-    text-shadow:
-      0 0 10px #00f0ff,
-      0 0 20px #00f0ff,
-      0 0 40px #00f0ff,
-      0 0 60px #00f0ff,
-      0 0 80px #00f0ff;
+    text-shadow: 0 0 10px #00f0ff,0 0 20px #00f0ff,0 0 40px #00f0ff,0 0 60px #00f0ff,0 0 80px #00f0ff;
   }
 }
 
-/* App Image maior */
+/* Imagem do App */
 .app-image {
-  width: 650px;          /* ainda maior */
-  max-width: 95%;        /* responsivo */
+  width: 650px;
+  max-width: 95%;
   border-radius: 25px;
-  box-shadow: 0 30px 80px rgba(0,240,255,0.6),
-              0 0 50px rgba(0,240,255,0.4) inset;
+  box-shadow: 0 30px 80px rgba(0,240,255,0.6), 0 0 50px rgba(0,240,255,0.4) inset;
   margin: 30px 0;
   transition: transform 0.4s, box-shadow 0.4s;
 }
 .app-image:hover {
   transform: scale(1.07) rotate(-1deg);
-  box-shadow: 0 40px 100px rgba(0,240,255,0.9),
-              0 0 60px rgba(0,240,255,0.6) inset;
+  box-shadow: 0 40px 100px rgba(0,240,255,0.9), 0 0 60px rgba(0,240,255,0.6) inset;
 }
 
-/* Remove h1 do header */
-header h1 {
-  display: none;
-}
-
-/* Descrição abaixo da imagem */
+/* Descrição e botão */
 header p {
   font-size: 1.4rem;
   margin-bottom: 25px;
   text-shadow: 0 0 5px #00f0ff;
 }
 
-
-/* App Image */
-.app-image {
-  width: 800px; max-width: 80%;
-  border-radius: 0px;
-  box-shadow: 0 340px 340px rgba(0,212,255,0.5);
-  margin: 20px 0;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-.app-image:hover {
-  transform: scale(1.05) rotate(-1deg);
-  box-shadow: 0 60px 50px rgba(0,212,255,0.8);
-}
-
-/* Header texts */
-header h1 {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 2.8rem;
-  color: #00d4ff;
-  margin-bottom: 15px;
-}
-header p {
-  font-size: 1.2rem;
-  margin-bottom: 25px;
-}
-
-/* Download Button Neon */
 .button-download {
   background: #00d4ff;
   color: #0f0f0f;
@@ -149,12 +99,16 @@ header p {
   box-shadow: 0 0 40px #00d4ff, 0 0 60px #00d4ff inset;
 }
 @keyframes pulse {
-  0%, 100% { box-shadow: 0 0 20px #00d4ff70, 0 0 40px #00d4ff50 inset; }
-  50% { box-shadow: 0 0 40px #00d4ff, 0 0 60px #00d4ff inset; }
+  0%,100% { box-shadow:0 0 20px #00d4ff70,0 0 40px #00d4ff50 inset; }
+  50% { box-shadow:0 0 40px #00d4ff,0 0 60px #00d4ff inset; }
 }
 
 /* -------------------- Main -------------------- */
-main { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
 
 /* Cards 3D */
 .cards {
@@ -171,9 +125,9 @@ main { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
   width: 260px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.5);
   text-align: center;
-  transform: translateY(50px) perspective(1000px);
+  transform: translateY(50px);
   opacity: 0;
-  transition: all 0.6s ease-out, transform 0.3s;
+  transition: all 0.6s ease-out;
 }
 .card:hover {
   transform: translateY(-10px) rotateY(10deg);
@@ -201,14 +155,12 @@ ul { list-style: none; padding-left: 0; }
 li { margin-bottom: 12px; font-size: 1.05rem; }
 code { background: #222; padding: 3px 6px; border-radius: 5px; font-family: monospace; }
 pre { background: #222; padding: 20px; border-radius: 15px; overflow-x: auto; }
-
-/* Section icons */
 .section-icon { width:28px; height:28px; fill:#00d4ff; }
 
-/* -------------------- Footer -------------------- */
+/* Footer */
 footer { text-align: center; color: #888; font-size: 14px; padding: 30px 0; }
 
-/* -------------------- Floating Button -------------------- */
+/* Floating Button */
 .floating-button {
   position: fixed;
   bottom: 25px;
@@ -229,6 +181,7 @@ footer { text-align: center; color: #888; font-size: 14px; padding: 30px 0; }
 @media(max-width:768px) {
   .cards { flex-direction: column; align-items: center; }
   .card { width: 90%; }
+  .app-image { width: 90%; }
 }
 </style>
 </head>
@@ -241,20 +194,18 @@ footer { text-align: center; color: #888; font-size: 14px; padding: 30px 0; }
  ____  _       _ _            _                           _               
 / ___|| |_ ___| | | __ _ _ __| |    __ _ _   _ _ __   ___| |__   ___ _ __ 
 \___ \| __/ _ \ | |/ _` | '__| |   / _` | | | | '_ \ / __| '_ \ / _ \ '__|
- ___) | ||  __/ | | (_| | |  | |__| (_| | |_| | | | | (__| | | |  __/ |   
+ ___) | ||  __/ | | (_| | |  | |__| (_| | |_| | | | (__| | | |  __/ |   
 |____/ \__\___|_|_|\__,_|_|  |_____\__,_|\__,_|_| |_|\___|_| |_|\___|_|  
   </div>
 
-  <img src="BRAAR MUSIC DOWNLOAD.jpg" alt="StellarLauncher App" class="app-image">
+  <img src="https://github.com/BRAAR-ORG/stellarlauncher/blob/main/illustration%20image.jpg" alt="StellarLauncher App" class="app-image">
 
   <p>Baixe áudio do YouTube em MP3 de forma rápida, limpa e eficiente.</p>
 
   <a class="button-download" href="https://github.com/BRAAR-ORG/stellarlauncher/releases/tag/v1.0.0" target="_blank">Baixar / Releases</a>
 </header>
 
-
 <main>
-  <!-- Cards -->
   <div class="cards">
     <div class="card">
       <svg viewBox="0 0 64 64"><path d="M32 0a32 32 0 1 0 32 32A32.036 32.036 0 0 0 32 0zm0 58a26 26 0 1 1 26-26 26.029 26.029 0 0 1-26 26z"/><path d="M44 24l-16 10V22z"/></svg>
@@ -278,7 +229,6 @@ footer { text-align: center; color: #888; font-size: 14px; padding: 30px 0; }
     </div>
   </div>
 
-  <!-- Sections with icons -->
   <section>
     <h2><svg class="section-icon" viewBox="0 0 64 64"><path d="M2 32h60"/></svg> Como Funciona</h2>
     <ul>
@@ -333,7 +283,7 @@ StellarLauncher/
 <a class="floating-button" href="https://github.com/BRAAR-ORG/stellarlauncher/releases/tag/v1.0.0" target="_blank">Baixar / Releases</a>
 
 <script>
-// Scroll Fade-in Animation
+// -------------------- Scroll Fade-in --------------------
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if(entry.isIntersecting) entry.target.classList.add('visible');
@@ -341,47 +291,51 @@ const observer = new IntersectionObserver(entries => {
 },{threshold:0.2});
 document.querySelectorAll('.card, section').forEach(el => observer.observe(el));
 
-// Particles Background
+// -------------------- Particles Background --------------------
 const canvas = document.getElementById('bgCanvas');
 const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-class Particle{
-  constructor(){
-    this.x=Math.random()*canvas.width;
-    this.y=Math.random()*canvas.height;
-    this.size=Math.random()*2+1;
-    this.speedX=(Math.random()-0.5)*1.5;
-    this.speedY=(Math.random()-0.5)*1.5;
-    this.color='rgba(0,212,255,0.7)';
+class Particle {
+  constructor() {
+    this.x = Math.random()*canvas.width;
+    this.y = Math.random()*canvas.height;
+    this.size = Math.random()*2 + 1;
+    this.speedX = (Math.random()-0.5)*1.5;
+    this.speedY = (Math.random()-0.5)*1.5;
+    this.color = 'rgba(0,212,255,0.7)';
   }
-  update(){
-    this.x+=this.speedX;
-    this.y+=this.speedY;
-    if(this.x<0||this.x>canvas.width)this.speedX*=-1;
-    if(this.y<0||this.y>canvas.height)this.speedY*=-1;
+  update() {
+    this.x += this.speedX;
+    this.y += this.speedY;
+    if(this.x<0||this.x>canvas.width) this.speedX*=-1;
+    if(this.y<0||this.y>canvas.height) this.speedY*=-1;
   }
-  draw(){
-    ctx.fillStyle=this.color;
+  draw() {
+    ctx.fillStyle = this.color;
     ctx.beginPath();
     ctx.arc(this.x,this.y,this.size,0,Math.PI*2);
     ctx.fill();
   }
 }
 
-let particlesArray=[];
-function initParticles(){ particlesArray=[]; for(let i=0;i<120;i++) particlesArray.push(new Particle()); }
-function animate(){
+let particlesArray = [];
+function initParticles() {
+  particlesArray = [];
+  for(let i=0;i<120;i++) particlesArray.push(new Particle());
+}
+function animate() {
   ctx.clearRect(0,0,canvas.width,canvas.height);
-  particlesArray.forEach(p=>{p.update();p.draw();});
+  particlesArray.forEach(p => { p.update(); p.draw(); });
   requestAnimationFrame(animate);
 }
-initParticles(); animate();
+initParticles();
+animate();
 
-window.addEventListener('resize',()=>{
-  canvas.width=window.innerWidth;
-  canvas.height=window.innerHeight;
+window.addEventListener('resize', ()=>{
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
   initParticles();
 });
 </script>
