@@ -1,53 +1,43 @@
-# 🎧 **StellarLauncher – Music Downloader**
+# ⭐ StellarLauncher — Manual Oficial do Usuário
 
----
 <p align="center">
-  <img width="132" height="132" alt="icon" src="https://github.com/user-attachments/assets/764a14d4-695b-434e-9adb-9e279be4b876" />
+  <img width="150" height="150" src="https://github.com/user-attachments/assets/764a14d4-695b-434e-9adb-9e279be4b876" />
 </p>
 
-## 🪐 **Descrição Geral**
-
-O **StellarLauncher** é um aplicativo leve para baixar áudio do YouTube em (formato MP3), oferecendo uma experiência simples, limpa e eficiente. Desenvolvido pela **BRAAR**, ele traz download rápido, conversão automática, pasta configurável e atualizações diretas via GitHub.
-
----
-
-## 🚀 **Recursos Principais**
-
-* 🎶 Download de áudio do YouTube em MP3 (yt-dlp)
-* 📂 Escolha e salvamento da pasta de destino
-* 🔄 Atualização automática via Releases
-* 🖥️ Terminal com identidade própria
-* 🤖 Conversão automática usando FFmpeg
-* 🔕 Interface limpa (sem debug, sem spam)
-* ⚡ Leve e rápido
-* 🪟 Compatível com Windows (versão .exe incluída)
+> 📘 **Documento Oficial de Uso do Aplicativo**
+> Desenvolvido por **BRAAR** — Uso pessoal, educativo e experimental.
 
 ---
 
-## 🆕 **Versão Atual**
+## 🎧 O que é o StellarLauncher?
 
-### 📌 **v1.0.0 — “Aurora”**
+O **StellarLauncher** é um aplicativo leve criado para demonstração e estudo de tecnologias de conversão, processamento e organização de arquivos MP3 a partir de conteúdo remoto. Ele foi projetado para oferecer uma experiência simples, eficiente e clara para testes tecnológicos.
 
-Primeira versão estável do aplicativo.
+Este software é destinado **exclusivamente para fins educacionais e pessoais**.
 
-### 📦 Arquivos Inclusos
-
-* `StellarLauncher.exe`
-* `ffmpeg.exe`
-* `icon.ico`
-* Código-fonte
-
-🔗 **Baixe agora:**
-[https://github.com/BRAAR-ORG/stellarlauncher/releases](https://github.com/BRAAR-ORG/stellarlauncher/releases)
+⚠️ **IMPORTANTE:** A BRAAR **não apoia pirataria**. Qualquer distribuição ou uso indevido de conteúdo protegido é responsabilidade total do usuário.
 
 ---
 
-## 🛠️ **Instalação**
+## 🚀 Principais Recursos
 
-1. Baixe o arquivo `.zip` na aba Releases.
-2. Extraia em qualquer pasta.
-3. Certifique-se de que `ffmpeg.exe` está na mesma pasta.
-4. Execute:
+* 🎶 Conversão experimental de áudio em MP3
+* ⚙️ Processamento automático via FFmpeg
+* 📂 Definição e salvamento de pasta de destino
+* 🖥️ Interface leve e minimalista no terminal
+* 🔄 Atualizações fornecidas via GitHub Releases
+* ⚡ Alto desempenho e inicialização rápida
+* 🔕 Sem spam visual, logs excessivos ou mensagens de debug
+
+---
+
+## 🛠️ Instalação (Passo a Passo)
+
+1. Acesse: [https://github.com/BRAAR-ORG/stellarlauncher/releases](https://github.com/BRAAR-ORG/stellarlauncher/releases)
+2. Baixe o arquivo `.zip` mais recente.
+3. Extraia o conteúdo em uma pasta de sua preferência.
+4. Verifique se **ffmpeg.exe** está na mesma pasta do aplicativo.
+5. Abra o programa executando:
 
 ```
 StellarLauncher.exe
@@ -55,34 +45,44 @@ StellarLauncher.exe
 
 ---
 
-## 📂 **Estrutura Recomendada da Pasta**
+## 📂 Estrutura Recomendada da Pasta
 
 ```
 StellarLauncher/
-│
 ├── StellarLauncher.exe
 ├── ffmpeg.exe
 ├── icon.ico
-└── config.txt   ← gerado automaticamente
+└── config.txt   (gerado automaticamente)
 ```
 
----
+## ⚠️ Aviso Legal (Uso e Direitos Autorais)
 
-## 🔧 **Requisitos**
+O StellarLauncher existe para fins:
 
-* Windows 10/11
-* Internet ativa
-* FFmpeg incluso
+* ✔ Educacionais
+* ✔ Experimentais
+* ✔ De estudo tecnológico
 
----
-
-## 👨‍💻 **Desenvolvido por BRAAR**
-
-Organização oficial:
-[https://github.com/BRAAR-ORG](https://github.com/BRAAR-ORG)
+Ele **não deve** ser utilizado para redistribuir, revender ou compartilhar conteúdo protegido por direitos autorais. A responsabilidade pelo uso indevido é **exclusivamente do usuário**.
 
 ---
 
-## 📄 **Licença**
+## 👨‍💻 Sobre a BRAAR
 
-Código fonte privado nos direitos da **"BRAAR"** para trabalho interno mas seguro. Evitando o código aberto para modificações de terceiros!!
+Organização oficial: [https://github.com/BRAAR-ORG](https://github.com/BRAAR-ORG)
+
+A **BRAAR** desenvolve ferramentas, demos e projetos experimentais focados em:
+
+* Automação
+* Interface
+* Processamento de dados
+* Testes tecnológicos em Python
+
+---
+
+## 📄 Licença
+
+Software fornecido apenas para **uso pessoal, educativo e não comercial**.
+Modificações externas não autorizadas podem comprometer a segurança e a integridade do aplicativo.
+
+---
